@@ -2,7 +2,7 @@
 import React from 'react';
 import superagent from 'superagent';
 import SearchForm from '../components/search/search-form';
-import SearchResultsList from '../components/results/results';
+import SearchResultsList from '../components/results/search-results-list';
 
 export default class App extends React.Component {
 
