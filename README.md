@@ -1,8 +1,5 @@
-![cf](http://i.imgur.com/7v5ASc8.png) 27: Reddit Search Engine
+Reddit Search Engine
 ===
-
-## Submission Instructions
-* Follow the instructions in the "Lab Instructions" documentation in the reference folder of the class repository 
   
 ## Learning Objectives  
 * Students will learn to test react components using jest and enzyme 
@@ -10,7 +7,7 @@
 * Students will learn to pass data from parent to child through props
 
 ## Requirements  
- 
+
 #### Feature Tasks 
 Create the following components and structure them according to the following diagram 
 ```
