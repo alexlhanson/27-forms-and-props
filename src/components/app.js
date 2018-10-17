@@ -44,7 +44,7 @@ export default class App extends React.Component {
   render() {
     return (
       <main>
-        <SearchForm searchReddit={this.searchReddit}/>
+        <SearchForm searchReddit={this.searchReddit} className={this.state.error? 'error': ''}/>
         <SearchResultsList SearchResultsList={this.state.results}/>
       </main>
     )

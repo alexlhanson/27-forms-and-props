@@ -18,7 +18,7 @@ export default class SearchResultsList extends React.Component {
             this.props.SearchResultsList.map((result, i) => {
               return (<li key={i}>
                 <h2>{result.data.title}</h2>
-                <a href={`${result.data.permalink}`}>{result.data.permalink}</a>
+                <a href={result.data.url}>{result.data.url}</a>
                 <p>{result.data.ups}</p>
                 </li>);
             })
