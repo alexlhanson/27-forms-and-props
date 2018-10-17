@@ -1,5 +1,6 @@
 'use strict';
 import React from 'react';
+import './search-form.scss';
 
 export default class SearchForm extends React.Component{
   constructor(props){
@@ -25,7 +26,7 @@ export default class SearchForm extends React.Component{
   };
 
   handleLimit(e){
-    this.setState({limit: (e.target.value - 1) || 100});
+    this.setState({limit: (e.target.value - 1) || 25});
   }
 
 
@@ -33,7 +34,7 @@ export default class SearchForm extends React.Component{
     return (
       <div className="redditSearch">
         <form onSubmit={this.handleSubmit}>
-          <input onChange={this.handleSearchText} placeholder="Search Reddit"></input>
+          <input onChange={this.handleSearchText} placeholder="Search Reddit" className={this.props.className}></input>
           <input onChange={this.handleLimit} placeholder="# Results" type="number" max="100" min="0"></input>
           <button type="submit">Search</button>
         </form>
