@@ -38,8 +38,6 @@ App
     * inside the anchor a heading tag with the topic.title 
     * inside the anchor a p tag with the number of topic.ups 
 
-#### Test
-* no testing today
 
 #### Documentation  
 Write a description of the project in your README.md
